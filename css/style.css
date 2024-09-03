@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #FFA07A;
+}
+
+nav {
+  background-color: #FF7F50;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+main {
+  background-color: gold;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #FF7F50;
+
+}
+
+li {
+  display: inline-block;
+  width: 25%;
+}
+
+a {
+  color: #000;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+p {
+  line-height: 1.5;
+  color: #000;
+}
