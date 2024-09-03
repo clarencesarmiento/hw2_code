@@ -12,6 +12,10 @@ header {
   align-items: center;
 }
 
+header img {
+  width: 10%;
+}
+
 nav {
   background-color: #FF7F50;
   display: inline-block;
@@ -39,7 +43,18 @@ main {
   font-size: 14px;
 }
 
-#images {
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+div.grid-container img{
+  width: 100%;
+}
+
+.flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
